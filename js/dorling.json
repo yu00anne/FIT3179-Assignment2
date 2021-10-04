@@ -1,6 +1,6 @@
 {
     "$schema": "https://vega.github.io/schema/vega/v5.json",
-    "description": "A Dorling cartogram depicting U.S. state obesity rates.",
+    "description": "A Dorling cartogram of Life Expectancy of Different Countries",
     "width": 900,
     "height": 520,
     "autosize": "none",
@@ -67,7 +67,7 @@
   
     "legends": [
       {
-        "title": "% of Obese Adults",
+        "title": "Life Expectancy Range",
         "orient": "bottom-right",
         "type": "symbol",
         "size": "size",
@@ -90,7 +90,7 @@
             "strokeWidth": {"value": 1.5},
             "x": {"field": "centroid[0]"},
             "y": {"field": "centroid[1]"},
-            "tooltip": {"signal": "'Obesity Rate: ' + format(datum.rate, '.1%')"}
+            "tooltip": {"signal": "'Life Expectancy: ' + format(datum.LifeExpectancy, '.1%')"}
           }
         },
         "transform": [
