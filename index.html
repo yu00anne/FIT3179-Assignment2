@@ -12,21 +12,32 @@
     <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.17.0"></script>
 
     <!-- CSS file -->
+    <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.6/build/pure-min.css" 
+        integrity="sha384-Uu6IeWbM+gzNVXJcM9XV3SohHtmWE+3VGi496jvgX1jyvDTXfdK+rfZc8C1Aehk5" 
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.6/build/grids-responsive-min.css" />
     <link rel="stylesheet" type="text/css" href="css/styles.css" media="all">
 
 </head>
 <body>
 
-    <div id="choropleth_map"></div>
+    <div class="pure-g">
 
-    <script type="text/javascript">
+        <div class="pure-u-1-3">
 
-        var map1 = "js/choropleth_map.json";
-        vegaEmbed('#choropleth_map', map1).then(function(result) {
-            // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
-        }).catch(console.error);
+            <script type="text/javascript" class="pure-u-1-3">
+    
+                var map1 = "js/choropleth_map.json";
+                vegaEmbed('.pure-u-1-3', map1).then(function(result) {
+                    // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+                }).catch(console.error);
+        
+            </script>
+    
+        </div>
 
-    </script>
+    </div>
+
 
 </body>
 </html>
