@@ -1,0 +1,2082 @@
+[
+ {
+   "Country": "Afghanistan",
+   "Code": "AFG",
+   "CO2Emissions": 9900004,
+   "YearlyChange": 7.13,
+   "Percapita": 0.28,
+   "Population": 35383032,
+   "LifeExpectancy": 63.763,
+   "Continent": "Asia"
+ },
+ {
+   "Country": "Albania",
+   "Code": "ALB",
+   "CO2Emissions": 5208319,
+   "YearlyChange": 4.45,
+   "Percapita": 1.8,
+   "Population": 2886438,
+   "LifeExpectancy": 78.194,
+   "Continent": "Europe"
+ },
+ {
+   "Country": "Algeria",
+   "Code": "DZA",
+   "CO2Emissions": 156220560,
+   "YearlyChange": 0.17,
+   "Percapita": 3.85,
+   "Population": 40551392,
+   "LifeExpectancy": 76.298,
+   "Continent": "Africa"
+ },
+ {
+   "Country": "Angola",
+   "Code": "AGO",
+   "CO2Emissions": 30566933,
+   "YearlyChange": 3.13,
+   "Percapita": 1.06,
+   "Population": 28842489,
+   "LifeExpectancy": 59.925,
+   "Continent": "Africa"
+ },
+ {
+   "Country": "Anguilla",
+   "Code": "AIA",
+   "CO2Emissions": 30262,
+   "YearlyChange": 1.52,
+   "Percapita": 2.1,
+   "Population": 14429,
+   "LifeExpectancy": 81.441,
+   "Continent": "North America"
+ },
+ {
+   "Country": "Antigua and Barbuda",
+   "Code": "ATG",
+   "CO2Emissions": 438763,
+   "YearlyChange": 1.51,
+   "Percapita": 4.64,
+   "Population": 94527,
+   "LifeExpectancy": 76.617,
+   "Continent": "North America"
+ },
+ {
+   "Country": "Argentina",
+   "Code": "ARG",
+   "CO2Emissions": 200708270,
+   "YearlyChange": 0.16,
+   "Percapita": 4.61,
+   "Population": 43508460,
+   "LifeExpectancy": 76.221,
+   "Continent": "South America"
+ },
+ {
+   "Country": "Armenia",
+   "Code": "ARM",
+   "CO2Emissions": 4597845,
+   "YearlyChange": 3.06,
+   "Percapita": 1.57,
+   "Population": 2936143,
+   "LifeExpectancy": 74.64,
+   "Continent": "Asia"
+ },
+ {
+   "Country": "Aruba",
+   "Code": "ABW",
+   "CO2Emissions": 286871,
+   "YearlyChange": 1.51,
+   "Percapita": 2.74,
+   "Population": 104872,
+   "LifeExpectancy": 75.868,
+   "Continent": "North America"
+ },
+ {
+   "Country": "Australia",
+   "Code": "AUS",
+   "CO2Emissions": 414988700,
+   "YearlyChange": -0.98,
+   "Percapita": 17.1,
+   "Population": 24262712,
+   "LifeExpectancy": 82.959,
+   "Continent": "Oceania"
+ },
+ {
+   "Country": "Austria",
+   "Code": "AUT",
+   "CO2Emissions": 73764112,
+   "YearlyChange": 1.54,
+   "Percapita": 8.43,
+   "Population": 8747301,
+   "LifeExpectancy": 81.258,
+   "Continent": "Europe"
+ },
+ {
+   "Country": "Azerbaijan",
+   "Code": "AZE",
+   "CO2Emissions": 33614235,
+   "YearlyChange": -0.41,
+   "Percapita": 3.45,
+   "Population": 9736043,
+   "LifeExpectancy": 72.493,
+   "Continent": "Asia"
+ },
+ {
+   "Country": "Bahamas",
+   "Code": "BHS",
+   "CO2Emissions": 4404247,
+   "YearlyChange": 1.51,
+   "Percapita": 11.65,
+   "Population": 377930,
+   "LifeExpectancy": 73.329,
+   "Continent": "North America"
+ },
+ {
+   "Country": "Bahrain",
+   "Code": "BHR",
+   "CO2Emissions": 24458384,
+   "YearlyChange": 2.5,
+   "Percapita": 17.15,
+   "Population": 1425792,
+   "LifeExpectancy": 76.899,
+   "Continent": "Asia"
+ },
+ {
+   "Country": "Bangladesh",
+   "Code": "BGD",
+   "CO2Emissions": 74476230,
+   "YearlyChange": 4.5,
+   "Percapita": 0.47,
+   "Population": 157977153,
+   "LifeExpectancy": 71.785,
+   "Continent": "Asia"
+ },
+ {
+   "Country": "Barbados",
+   "Code": "BRB",
+   "CO2Emissions": 1541447,
+   "YearlyChange": 1.88,
+   "Percapita": 5.39,
+   "Population": 285796,
+   "LifeExpectancy": 78.888,
+   "Continent": "North America"
+ },
+ {
+   "Country": "Belarus",
+   "Code": "BLR",
+   "CO2Emissions": 62655669,
+   "YearlyChange": 4.9,
+   "Percapita": 6.63,
+   "Population": 9445643,
+   "LifeExpectancy": 74.031,
+   "Continent": "Europe"
+ },
+ {
+   "Country": "Belgium",
+   "Code": "BEL",
+   "CO2Emissions": 94722813,
+   "YearlyChange": 1.53,
+   "Percapita": 8.34,
+   "Population": 11354420,
+   "LifeExpectancy": 81.139,
+   "Continent": "Europe"
+ },
+ {
+   "Country": "Belize",
+   "Code": "BLZ",
+   "CO2Emissions": 1114105,
+   "YearlyChange": 1.51,
+   "Percapita": 3.02,
+   "Population": 368400,
+   "LifeExpectancy": 74.219,
+   "Continent": "North America"
+ },
+ {
+   "Country": "Benin",
+   "Code": "BEN",
+   "CO2Emissions": 6563709,
+   "YearlyChange": 4.13,
+   "Percapita": 0.6,
+   "Population": 10872063,
+   "LifeExpectancy": 60.885,
+   "Continent": "Africa"
+ },
+ {
+   "Country": "Bermuda",
+   "Code": "BMU",
+   "CO2Emissions": 639352,
+   "YearlyChange": 1.51,
+   "Percapita": 10.09,
+   "Population": 63362,
+   "LifeExpectancy": 82.163,
+   "Continent": "North America"
+ },
+ {
+   "Country": "Bhutan",
+   "Code": "BTN",
+   "CO2Emissions": 1682100,
+   "YearlyChange": 6.14,
+   "Percapita": 2.28,
+   "Population": 736708,
+   "LifeExpectancy": 70.781,
+   "Continent": "Asia"
+ },
+ {
+   "Country": "Bolivia",
+   "Code": "BOL",
+   "CO2Emissions": 19463728,
+   "YearlyChange": 2.03,
+   "Percapita": 1.76,
+   "Population": 11031814,
+   "LifeExpectancy": 70.626,
+   "Continent": "South America"
+ },
+ {
+   "Country": "Bosnia and Herzegovina",
+   "Code": "BIH",
+   "CO2Emissions": 25674120,
+   "YearlyChange": 0.86,
+   "Percapita": 7.58,
+   "Population": 3386266,
+   "LifeExpectancy": 76.998,
+   "Continent": "Europe"
+ },
+ {
+   "Country": "Botswana",
+   "Code": "BWA",
+   "CO2Emissions": 6438429,
+   "YearlyChange": -3.74,
+   "Percapita": 2.98,
+   "Population": 2159927,
+   "LifeExpectancy": 68.178,
+   "Continent": "Africa"
+ },
+ {
+   "Country": "Brazil",
+   "Code": "BRA",
+   "CO2Emissions": 462994920,
+   "YearlyChange": -6.08,
+   "Percapita": 2.25,
+   "Population": 206163053,
+   "LifeExpectancy": 75.23,
+   "Continent": "South America"
+ },
+ {
+   "Country": "British Virgin Islands",
+   "Code": "VGB",
+   "CO2Emissions": 99762,
+   "YearlyChange": 1.51,
+   "Percapita": 3.4,
+   "Population": 29355,
+   "LifeExpectancy": 78.576,
+   "Continent": "North America"
+ },
+ {
+   "Country": "Brunei",
+   "Code": "BRN",
+   "CO2Emissions": 7672127,
+   "YearlyChange": 3.54,
+   "Percapita": 18.28,
+   "Population": 419800,
+   "LifeExpectancy": 75.45,
+   "Continent": "Asia"
+ },
+ {
+   "Country": "Bulgaria",
+   "Code": "BGR",
+   "CO2Emissions": 50872910,
+   "YearlyChange": -6,
+   "Percapita": 7.11,
+   "Population": 7151953,
+   "LifeExpectancy": 74.703,
+   "Continent": "Europe"
+ },
+ {
+   "Country": "Burkina Faso",
+   "Code": "BFA",
+   "CO2Emissions": 2352070,
+   "YearlyChange": 3.14,
+   "Percapita": 0.13,
+   "Population": 18646357,
+   "LifeExpectancy": 60.354,
+   "Continent": "Africa"
+ },
+ {
+   "Country": "Burundi",
+   "Code": "BDI",
+   "CO2Emissions": 1093618,
+   "YearlyChange": 2.81,
+   "Percapita": 0.1,
+   "Population": 10487995,
+   "LifeExpectancy": 60.528,
+   "Continent": "Africa"
+ },
+ {
+   "Country": "Cambodia",
+   "Code": "KHM",
+   "CO2Emissions": 6496958,
+   "YearlyChange": 7.68,
+   "Percapita": 0.41,
+   "Population": 15766292,
+   "LifeExpectancy": 68.977,
+   "Continent": "Asia"
+ },
+ {
+   "Country": "Cameroon",
+   "Code": "CMR",
+   "CO2Emissions": 9454331,
+   "YearlyChange": 2.21,
+   "Percapita": 0.4,
+   "Population": 23926551,
+   "LifeExpectancy": 58.063,
+   "Continent": "Africa"
+ },
+ {
+   "Country": "Canada",
+   "Code": "CAN",
+   "CO2Emissions": 675918610,
+   "YearlyChange": -1,
+   "Percapita": 18.58,
+   "Population": 36382944,
+   "LifeExpectancy": 82.117,
+   "Continent": "North America"
+ },
+ {
+   "Country": "Cape Verde",
+   "Code": "CPV",
+   "CO2Emissions": 99687,
+   "YearlyChange": 2.59,
+   "Percapita": 0.19,
+   "Population": 531146,
+   "LifeExpectancy": 72.347,
+   "Continent": ""
+ },
+ {
+   "Country": "Cayman Islands",
+   "Code": "CYM",
+   "CO2Emissions": 406057,
+   "YearlyChange": 1.52,
+   "Percapita": 6.49,
+   "Population": 62569,
+   "LifeExpectancy": 83.48,
+   "Continent": "North America"
+ },
+ {
+   "Country": "Central African Republic",
+   "Code": "CAF",
+   "CO2Emissions": 543229,
+   "YearlyChange": 2.57,
+   "Percapita": 0.12,
+   "Population": 4537686,
+   "LifeExpectancy": 51.593,
+   "Continent": "Africa"
+ },
+ {
+   "Country": "Chad",
+   "Code": "TCD",
+   "CO2Emissions": 1670941,
+   "YearlyChange": 2.14,
+   "Percapita": 0.11,
+   "Population": 14561660,
+   "LifeExpectancy": 53.438,
+   "Continent": "Africa"
+ },
+ {
+   "Country": "Chile",
+   "Code": "CHL",
+   "CO2Emissions": 81258525,
+   "YearlyChange": 5.33,
+   "Percapita": 4.46,
+   "Population": 18209068,
+   "LifeExpectancy": 79.779,
+   "Continent": "South America"
+ },
+ {
+   "Country": "China",
+   "Code": "CHN",
+   "CO2Emissions": 10432751400,
+   "YearlyChange": -0.28,
+   "Percapita": 7.38,
+   "Population": 1414049351,
+   "LifeExpectancy": 76.21,
+   "Continent": "Asia"
+ },
+ {
+   "Country": "Colombia",
+   "Code": "COL",
+   "CO2Emissions": 77667594,
+   "YearlyChange": -0.84,
+   "Percapita": 1.61,
+   "Population": 48175052,
+   "LifeExpectancy": 76.732,
+   "Continent": "South America"
+ },
+ {
+   "Country": "Comoros",
+   "Code": "COM",
+   "CO2Emissions": 108422,
+   "YearlyChange": 2.58,
+   "Percapita": 0.14,
+   "Population": 795592,
+   "LifeExpectancy": 63.7,
+   "Continent": "Africa"
+ },
+ {
+   "Country": "Congo",
+   "Code": "COG",
+   "CO2Emissions": 5212302,
+   "YearlyChange": 1.63,
+   "Percapita": 1.05,
+   "Population": 4980996,
+   "LifeExpectancy": 63.556,
+   "Continent": "Africa"
+ },
+ {
+   "Country": "Cook Islands",
+   "Code": "COK",
+   "CO2Emissions": 37354,
+   "YearlyChange": 7.19,
+   "Percapita": 2.13,
+   "Population": 17524,
+   "LifeExpectancy": 75.631,
+   "Continent": "Oceania"
+ },
+ {
+   "Country": "Costa Rica",
+   "Code": "CRI",
+   "CO2Emissions": 8328890,
+   "YearlyChange": 2.16,
+   "Percapita": 1.7,
+   "Population": 4899345,
+   "LifeExpectancy": 79.738,
+   "Continent": "North America"
+ },
+ {
+   "Country": "Cote d'Ivoire",
+   "Code": "CIV",
+   "CO2Emissions": 10056492,
+   "YearlyChange": 1.16,
+   "Percapita": 0.42,
+   "Population": 23822714,
+   "LifeExpectancy": 56.567,
+   "Continent": "Africa"
+ },
+ {
+   "Country": "Croatia",
+   "Code": "HRV",
+   "CO2Emissions": 19408194,
+   "YearlyChange": 3.02,
+   "Percapita": 4.61,
+   "Population": 4208602,
+   "LifeExpectancy": 78.049,
+   "Continent": "Europe"
+ },
+ {
+   "Country": "Cuba",
+   "Code": "CUB",
+   "CO2Emissions": 30389116,
+   "YearlyChange": 1.65,
+   "Percapita": 2.68,
+   "Population": 11335104,
+   "LifeExpectancy": 78.607,
+   "Continent": "North America"
+ },
+ {
+   "Country": "Cyprus",
+   "Code": "CYP",
+   "CO2Emissions": 6872427,
+   "YearlyChange": 3.73,
+   "Percapita": 5.87,
+   "Population": 1170187,
+   "LifeExpectancy": 80.513,
+   "Continent": "Asia"
+ },
+ {
+   "Country": "Czech Republic (Czechia)",
+   "Code": "CZE",
+   "CO2Emissions": 111825428,
+   "YearlyChange": 1.39,
+   "Percapita": 10.53,
+   "Population": 10618857,
+   "LifeExpectancy": 78.881,
+   "Continent": "Europe"
+ },
+ {
+   "Country": "Denmark",
+   "Code": "DNK",
+   "CO2Emissions": 38007645,
+   "YearlyChange": 5.23,
+   "Percapita": 6.65,
+   "Population": 5711349,
+   "LifeExpectancy": 80.583,
+   "Continent": "Europe"
+ },
+ {
+   "Country": "Djibouti",
+   "Code": "DJI",
+   "CO2Emissions": 1508851,
+   "YearlyChange": 2.97,
+   "Percapita": 1.62,
+   "Population": 929112,
+   "LifeExpectancy": 65.064,
+   "Continent": "Africa"
+ },
+ {
+   "Country": "Dominica",
+   "Code": "DMA",
+   "CO2Emissions": 185767,
+   "YearlyChange": 1.51,
+   "Percapita": 2.61,
+   "Population": 71307,
+   "LifeExpectancy": 74.384,
+   "Continent": "North America"
+ },
+ {
+   "Country": "Dominican Republic",
+   "Code": "DOM",
+   "CO2Emissions": 23466740,
+   "YearlyChange": 2.88,
+   "Percapita": 2.26,
+   "Population": 10397741,
+   "LifeExpectancy": 73.471,
+   "Continent": "North America"
+ },
+ {
+   "Country": "Ecuador",
+   "Code": "ECU",
+   "CO2Emissions": 40065690,
+   "YearlyChange": -4.85,
+   "Percapita": 2.43,
+   "Population": 16491116,
+   "LifeExpectancy": 76.365,
+   "Continent": "South America"
+ },
+ {
+   "Country": "Egypt",
+   "Code": "EGY",
+   "CO2Emissions": 219377350,
+   "YearlyChange": 4.72,
+   "Percapita": 2.32,
+   "Population": 94447073,
+   "LifeExpectancy": 71.482,
+   "Continent": "Africa"
+ },
+ {
+   "Country": "El Salvador",
+   "Code": "SLV",
+   "CO2Emissions": 6853766,
+   "YearlyChange": 0.45,
+   "Percapita": 1.08,
+   "Population": 6356143,
+   "LifeExpectancy": 72.644,
+   "Continent": "North America"
+ },
+ {
+   "Country": "Equatorial Guinea",
+   "Code": "GNQ",
+   "CO2Emissions": 2156371,
+   "YearlyChange": 0,
+   "Percapita": 1.77,
+   "Population": 1215180,
+   "LifeExpectancy": 57.713,
+   "Continent": "Africa"
+ },
+ {
+   "Country": "Eritrea",
+   "Code": "ERI",
+   "CO2Emissions": 684140,
+   "YearlyChange": 4.79,
+   "Percapita": 0.2,
+   "Population": 3376557,
+   "LifeExpectancy": 65.111,
+   "Continent": "Africa"
+ },
+ {
+   "Country": "Estonia",
+   "Code": "EST",
+   "CO2Emissions": 22402414,
+   "YearlyChange": 1.01,
+   "Percapita": 17.02,
+   "Population": 1316510,
+   "LifeExpectancy": 78.097,
+   "Continent": "Europe"
+ },
+ {
+   "Country": "Eswatini",
+   "Code": "SWZ",
+   "CO2Emissions": 657572,
+   "YearlyChange": 2.61,
+   "Percapita": 0.59,
+   "Population": 1113997,
+   "LifeExpectancy": 56.962,
+   "Continent": "Africa"
+ },
+ {
+   "Country": "Ethiopia",
+   "Code": "ETH",
+   "CO2Emissions": 10438855,
+   "YearlyChange": 4.03,
+   "Percapita": 0.1,
+   "Population": 103603462,
+   "LifeExpectancy": 65.482,
+   "Continent": "Africa"
+ },
+ {
+   "Country": "Faeroe Islands",
+   "Code": "FRO",
+   "CO2Emissions": 1953,
+   "YearlyChange": 0.6,
+   "Percapita": 0.04,
+   "Population": 48173,
+   "LifeExpectancy": 80.255,
+   "Continent": "South America"
+ },
+ {
+   "Country": "Falkland Islands",
+   "Code": "FLK",
+   "CO2Emissions": 48568,
+   "YearlyChange": 1.51,
+   "Percapita": 16.59,
+   "Population": 2928,
+   "LifeExpectancy": 81.021,
+   "Continent": "Europe"
+ },
+ {
+   "Country": "Fiji",
+   "Code": "FJI",
+   "CO2Emissions": 1703193,
+   "YearlyChange": 7.28,
+   "Percapita": 1.95,
+   "Population": 872399,
+   "LifeExpectancy": 67.175,
+   "Continent": "Oceania"
+ },
+ {
+   "Country": "Finland",
+   "Code": "FIN",
+   "CO2Emissions": 51183960,
+   "YearlyChange": 3.62,
+   "Percapita": 9.31,
+   "Population": 5497713,
+   "LifeExpectancy": 81.382,
+   "Continent": "Europe"
+ },
+ {
+   "Country": "France",
+   "Code": "FRA",
+   "CO2Emissions": 331533320,
+   "YearlyChange": 2.11,
+   "Percapita": 5.13,
+   "Population": 64667596,
+   "LifeExpectancy": 82.328,
+   "Continent": "Europe"
+ },
+ {
+   "Country": "French Guiana",
+   "Code": "GUF",
+   "CO2Emissions": 1473719,
+   "YearlyChange": 1.73,
+   "Percapita": 5.5,
+   "Population": 267821,
+   "LifeExpectancy": 79.642,
+   "Continent": "South America"
+ },
+ {
+   "Country": "French Polynesia",
+   "Code": "PYF",
+   "CO2Emissions": 1003249,
+   "YearlyChange": 7.18,
+   "Percapita": 3.65,
+   "Population": 274575,
+   "LifeExpectancy": 77.024,
+   "Continent": "Oceania"
+ },
+ {
+   "Country": "Gabon",
+   "Code": "GAB",
+   "CO2Emissions": 5694208,
+   "YearlyChange": 1.12,
+   "Percapita": 2.84,
+   "Population": 2007873,
+   "LifeExpectancy": 65.418,
+   "Continent": "Africa"
+ },
+ {
+   "Country": "Gambia",
+   "Code": "GMB",
+   "CO2Emissions": 254127,
+   "YearlyChange": 2.59,
+   "Percapita": 0.12,
+   "Population": 2149136,
+   "LifeExpectancy": 61.166,
+   "Continent": "Africa"
+ },
+ {
+   "Country": "Georgia",
+   "Code": "GEO",
+   "CO2Emissions": 8610414,
+   "YearlyChange": 2.94,
+   "Percapita": 2.14,
+   "Population": 4015450,
+   "LifeExpectancy": 73.207,
+   "Continent": "Asia"
+ },
+ {
+   "Country": "Germany",
+   "Code": "DEU",
+   "CO2Emissions": 775752190,
+   "YearlyChange": 1.28,
+   "Percapita": 9.44,
+   "Population": 82193768,
+   "LifeExpectancy": 80.902,
+   "Continent": "Europe"
+ },
+ {
+   "Country": "Ghana",
+   "Code": "GHA",
+   "CO2Emissions": 14469986,
+   "YearlyChange": 3.54,
+   "Percapita": 0.51,
+   "Population": 28481945,
+   "LifeExpectancy": 63.124,
+   "Continent": "Africa"
+ },
+ {
+   "Country": "Gibraltar",
+   "Code": "GIB",
+   "CO2Emissions": 572708,
+   "YearlyChange": 3.53,
+   "Percapita": 16.98,
+   "Population": 33737,
+   "LifeExpectancy": 79.485,
+   "Continent": "Europe"
+ },
+ {
+   "Country": "Greece",
+   "Code": "GRC",
+   "CO2Emissions": 67840662,
+   "YearlyChange": -3.47,
+   "Percapita": 6.39,
+   "Population": 10615185,
+   "LifeExpectancy": 81.727,
+   "Continent": "Europe"
+ },
+ {
+   "Country": "Greenland",
+   "Code": "GRL",
+   "CO2Emissions": 1530,
+   "YearlyChange": 0.86,
+   "Percapita": 0.03,
+   "Population": 56412,
+   "LifeExpectancy": 71.493,
+   "Continent": "North America"
+ },
+ {
+   "Country": "Grenada",
+   "Code": "GRD",
+   "CO2Emissions": 554848,
+   "YearlyChange": 1.51,
+   "Percapita": 5.03,
+   "Population": 110261,
+   "LifeExpectancy": 72.408,
+   "Continent": "North America"
+ },
+ {
+   "Country": "Guadeloupe",
+   "Code": "GLP",
+   "CO2Emissions": 2478038,
+   "YearlyChange": 1.84,
+   "Percapita": 6.2,
+   "Population": 399763,
+   "LifeExpectancy": 81.469,
+   "Continent": "North America"
+ },
+ {
+   "Country": "Guatemala",
+   "Code": "GTM",
+   "CO2Emissions": 18539316,
+   "YearlyChange": 2.42,
+   "Percapita": 1.12,
+   "Population": 16583076,
+   "LifeExpectancy": 73.541,
+   "Continent": "North America"
+ },
+ {
+   "Country": "Guinea",
+   "Code": "GIN",
+   "CO2Emissions": 2071798,
+   "YearlyChange": 3.2,
+   "Percapita": 0.18,
+   "Population": 11738429,
+   "LifeExpectancy": 60.17,
+   "Continent": "Africa"
+ },
+ {
+   "Country": "Guinea-Bissau",
+   "Code": "GNB",
+   "CO2Emissions": 318706,
+   "YearlyChange": 2.59,
+   "Percapita": 0.18,
+   "Population": 1782438,
+   "LifeExpectancy": 57.328,
+   "Continent": "Africa"
+ },
+ {
+   "Country": "Guyana",
+   "Code": "GUY",
+   "CO2Emissions": 3253057,
+   "YearlyChange": 1.61,
+   "Percapita": 4.22,
+   "Population": 771368,
+   "LifeExpectancy": 69.454,
+   "Continent": "South America"
+ },
+ {
+   "Country": "Haiti",
+   "Code": "HTI",
+   "CO2Emissions": 3086897,
+   "YearlyChange": 1.71,
+   "Percapita": 0.28,
+   "Population": 10839970,
+   "LifeExpectancy": 62.896,
+   "Continent": "North America"
+ },
+ {
+   "Country": "Honduras",
+   "Code": "HND",
+   "CO2Emissions": 9320279,
+   "YearlyChange": 2.25,
+   "Percapita": 1.01,
+   "Population": 9270795,
+   "LifeExpectancy": 74.701,
+   "Continent": "North America"
+ },
+ {
+   "Country": "Hong Kong",
+   "Code": "HKG",
+   "CO2Emissions": 47066386,
+   "YearlyChange": 1.23,
+   "Percapita": 6.5,
+   "Population": 7243542,
+   "LifeExpectancy": 84.277,
+   "Continent": "Asia"
+ },
+ {
+   "Country": "Hungary",
+   "Code": "HUN",
+   "CO2Emissions": 51018899,
+   "YearlyChange": 2.16,
+   "Percapita": 5.23,
+   "Population": 9752975,
+   "LifeExpectancy": 76.266,
+   "Continent": "Europe"
+ },
+ {
+   "Country": "Iceland",
+   "Code": "ISL",
+   "CO2Emissions": 3923884,
+   "YearlyChange": 1.62,
+   "Percapita": 11.81,
+   "Population": 332206,
+   "LifeExpectancy": 82.601,
+   "Continent": "Europe"
+ },
+ {
+   "Country": "India",
+   "Code": "IND",
+   "CO2Emissions": 2533638100,
+   "YearlyChange": 4.71,
+   "Percapita": 1.91,
+   "Population": 1324517249,
+   "LifeExpectancy": 68.897,
+   "Continent": "Asia"
+ },
+ {
+   "Country": "Indonesia",
+   "Code": "IDN",
+   "CO2Emissions": 530035650,
+   "YearlyChange": 6.41,
+   "Percapita": 2.03,
+   "Population": 261556381,
+   "LifeExpectancy": 71.035,
+   "Continent": "Asia"
+ },
+ {
+   "Country": "Iran",
+   "Code": "IRN",
+   "CO2Emissions": 642560030,
+   "YearlyChange": 2.22,
+   "Percapita": 8.08,
+   "Population": 79563989,
+   "LifeExpectancy": 76.047,
+   "Continent": "Asia"
+ },
+ {
+   "Country": "Iraq",
+   "Code": "IRQ",
+   "CO2Emissions": 162646160,
+   "YearlyChange": 1.22,
+   "Percapita": 4.44,
+   "Population": 36610632,
+   "LifeExpectancy": 70.122,
+   "Continent": "Asia"
+ },
+ {
+   "Country": "Ireland",
+   "Code": "IRL",
+   "CO2Emissions": 39086565,
+   "YearlyChange": 5.09,
+   "Percapita": 8.32,
+   "Population": 4695779,
+   "LifeExpectancy": 81.615,
+   "Continent": "Europe"
+ },
+ {
+   "Country": "Israel",
+   "Code": "ISR",
+   "CO2Emissions": 65201588,
+   "YearlyChange": -0.38,
+   "Percapita": 8.04,
+   "Population": 8108985,
+   "LifeExpectancy": 82.503,
+   "Continent": "Asia"
+ },
+ {
+   "Country": "Italy",
+   "Code": "ITA",
+   "CO2Emissions": 358139550,
+   "YearlyChange": 0.84,
+   "Percapita": 5.9,
+   "Population": 60663060,
+   "LifeExpectancy": 83.008,
+   "Continent": "Europe"
+ },
+ {
+   "Country": "Jamaica",
+   "Code": "JAM",
+   "CO2Emissions": 8946575,
+   "YearlyChange": 1.82,
+   "Percapita": 3.08,
+   "Population": 2906236,
+   "LifeExpectancy": 74.175,
+   "Continent": "North America"
+ },
+ {
+   "Country": "Japan",
+   "Code": "JPN",
+   "CO2Emissions": 1239592060,
+   "YearlyChange": -1.21,
+   "Percapita": 9.7,
+   "Population": 127763265,
+   "LifeExpectancy": 84.09,
+   "Continent": "Asia"
+ },
+ {
+   "Country": "Jordan",
+   "Code": "JOR",
+   "CO2Emissions": 22772370,
+   "YearlyChange": 1.83,
+   "Percapita": 2.38,
+   "Population": 9554286,
+   "LifeExpectancy": 74.184,
+   "Continent": "Asia"
+ },
+ {
+   "Country": "Kazakhstan",
+   "Code": "KAZ",
+   "CO2Emissions": 231919540,
+   "YearlyChange": 1.64,
+   "Percapita": 13.01,
+   "Population": 17830901,
+   "LifeExpectancy": 72.081,
+   "Continent": "Asia"
+ },
+ {
+   "Country": "Kenya",
+   "Code": "KEN",
+   "CO2Emissions": 16334919,
+   "YearlyChange": 3.6,
+   "Percapita": 0.33,
+   "Population": 49051534,
+   "LifeExpectancy": 65.393,
+   "Continent": "Africa"
+ },
+ {
+   "Country": "Kiribati",
+   "Code": "KIR",
+   "CO2Emissions": 52818,
+   "YearlyChange": 7.18,
+   "Percapita": 0.47,
+   "Population": 112524,
+   "LifeExpectancy": 67.577,
+   "Continent": "Oceania"
+ },
+ {
+   "Country": "Kuwait",
+   "Code": "KWT",
+   "CO2Emissions": 101492225,
+   "YearlyChange": 1.36,
+   "Percapita": 25.65,
+   "Population": 3956875,
+   "LifeExpectancy": 75.224,
+   "Continent": "Asia"
+ },
+ {
+   "Country": "Kyrgyzstan",
+   "Code": "KGZ",
+   "CO2Emissions": 6941784,
+   "YearlyChange": 2.53,
+   "Percapita": 1.14,
+   "Population": 6074330,
+   "LifeExpectancy": 71.054,
+   "Continent": "Asia"
+ },
+ {
+   "Country": "Laos",
+   "Code": "LAO",
+   "CO2Emissions": 4531276,
+   "YearlyChange": 7.92,
+   "Percapita": 0.66,
+   "Population": 6845846,
+   "LifeExpectancy": 66.924,
+   "Continent": "Asia"
+ },
+ {
+   "Country": "Latvia",
+   "Code": "LVA",
+   "CO2Emissions": 8157157,
+   "YearlyChange": 3.41,
+   "Percapita": 4.13,
+   "Population": 1974266,
+   "LifeExpectancy": 74.91,
+   "Continent": "Europe"
+ },
+ {
+   "Country": "Lebanon",
+   "Code": "LBN",
+   "CO2Emissions": 21863288,
+   "YearlyChange": 1.95,
+   "Percapita": 3.26,
+   "Population": 6714281,
+   "LifeExpectancy": 78.8,
+   "Continent": "Asia"
+ },
+ {
+   "Country": "Lesotho",
+   "Code": "LSO",
+   "CO2Emissions": 318438,
+   "YearlyChange": 2.58,
+   "Percapita": 0.15,
+   "Population": 2075030,
+   "LifeExpectancy": 52.059,
+   "Continent": "Africa"
+ },
+ {
+   "Country": "Liberia",
+   "Code": "LBR",
+   "CO2Emissions": 846658,
+   "YearlyChange": 3.49,
+   "Percapita": 0.18,
+   "Population": 4586787,
+   "LifeExpectancy": 62.802,
+   "Continent": "Africa"
+ },
+ {
+   "Country": "Libya",
+   "Code": "LBY",
+   "CO2Emissions": 52696075,
+   "YearlyChange": 1.52,
+   "Percapita": 8.12,
+   "Population": 6492162,
+   "LifeExpectancy": 72.311,
+   "Continent": "Africa"
+ },
+ {
+   "Country": "Lithuania",
+   "Code": "LTU",
+   "CO2Emissions": 13685264,
+   "YearlyChange": 2.66,
+   "Percapita": 4.74,
+   "Population": 2889557,
+   "LifeExpectancy": 75.238,
+   "Continent": "Europe"
+ },
+ {
+   "Country": "Luxembourg",
+   "Code": "LUX",
+   "CO2Emissions": 10144632,
+   "YearlyChange": 3.45,
+   "Percapita": 17.51,
+   "Population": 579264,
+   "LifeExpectancy": 81.803,
+   "Continent": "Europe"
+ },
+ {
+   "Country": "Macao",
+   "Code": "MAC",
+   "CO2Emissions": 3106518,
+   "YearlyChange": 7.19,
+   "Percapita": 5.07,
+   "Population": 612836,
+   "LifeExpectancy": 83.854,
+   "Continent": "Asia"
+ },
+ {
+   "Country": "Madagascar",
+   "Code": "MDG",
+   "CO2Emissions": 3026047,
+   "YearlyChange": 2.85,
+   "Percapita": 0.12,
+   "Population": 24894370,
+   "LifeExpectancy": 65.931,
+   "Continent": "Africa"
+ },
+ {
+   "Country": "Malawi",
+   "Code": "MWI",
+   "CO2Emissions": 1815598,
+   "YearlyChange": 3.26,
+   "Percapita": 0.11,
+   "Population": 17205261,
+   "LifeExpectancy": 62.681,
+   "Continent": "Africa"
+ },
+ {
+   "Country": "Malaysia",
+   "Code": "MYS",
+   "CO2Emissions": 266251542,
+   "YearlyChange": 6.54,
+   "Percapita": 8.68,
+   "Population": 30684654,
+   "LifeExpectancy": 75.649,
+   "Continent": "Asia"
+ },
+ {
+   "Country": "Maldives",
+   "Code": "MDV",
+   "CO2Emissions": 1233015,
+   "YearlyChange": 7.19,
+   "Percapita": 2.59,
+   "Population": 475512,
+   "LifeExpectancy": 78.013,
+   "Continent": "Asia"
+ },
+ {
+   "Country": "Mali",
+   "Code": "MLI",
+   "CO2Emissions": 1606421,
+   "YearlyChange": 2.57,
+   "Percapita": 0.09,
+   "Population": 17965443,
+   "LifeExpectancy": 57.987,
+   "Continent": "Africa"
+ },
+ {
+   "Country": "Malta",
+   "Code": "MLT",
+   "CO2Emissions": 2257870,
+   "YearlyChange": 3.48,
+   "Percapita": 5.18,
+   "Population": 436097,
+   "LifeExpectancy": 82.063,
+   "Continent": "Europe"
+ },
+ {
+   "Country": "Martinique",
+   "Code": "MTQ",
+   "CO2Emissions": 2715477,
+   "YearlyChange": 1.72,
+   "Percapita": 7.21,
+   "Population": 376791,
+   "LifeExpectancy": 81.962,
+   "Continent": "North America"
+ },
+ {
+   "Country": "Mauritania",
+   "Code": "MRT",
+   "CO2Emissions": 2564345,
+   "YearlyChange": 3.32,
+   "Percapita": 0.62,
+   "Population": 4163533,
+   "LifeExpectancy": 64.208,
+   "Continent": "Africa"
+ },
+ {
+   "Country": "Mauritius",
+   "Code": "MUS",
+   "CO2Emissions": 3192307,
+   "YearlyChange": 0,
+   "Percapita": 2.53,
+   "Population": 1261865,
+   "LifeExpectancy": 74.626,
+   "Continent": "Africa"
+ },
+ {
+   "Country": "Mexico",
+   "Code": "MEX",
+   "CO2Emissions": 441412750,
+   "YearlyChange": -2.13,
+   "Percapita": 3.58,
+   "Population": 123333376,
+   "LifeExpectancy": 74.917,
+   "Continent": "North America"
+ },
+ {
+   "Country": "Moldova",
+   "Code": "MDA",
+   "CO2Emissions": 8258774,
+   "YearlyChange": 2.99,
+   "Percapita": 2.03,
+   "Population": 4066009,
+   "LifeExpectancy": 71.617,
+   "Continent": "Europe"
+ },
+ {
+   "Country": "Mongolia",
+   "Code": "MNG",
+   "CO2Emissions": 18574260,
+   "YearlyChange": 18.09,
+   "Percapita": 6.08,
+   "Population": 3056364,
+   "LifeExpectancy": 69.321,
+   "Continent": "Asia"
+ },
+ {
+   "Country": "Montenegro",
+   "Code": "MNE",
+   "CO2Emissions": 16249039,
+   "YearlyChange": 2.27,
+   "Percapita": 25.9,
+   "Population": 627264,
+   "LifeExpectancy": 76.568,
+   "Continent": "Europe"
+ },
+ {
+   "Country": "Morocco",
+   "Code": "MAR",
+   "CO2Emissions": 57694464,
+   "YearlyChange": 0.54,
+   "Percapita": 1.64,
+   "Population": 35126283,
+   "LifeExpectancy": 75.974,
+   "Continent": "Africa"
+ },
+ {
+   "Country": "Mozambique",
+   "Code": "MOZ",
+   "CO2Emissions": 5859171,
+   "YearlyChange": 2.22,
+   "Percapita": 0.21,
+   "Population": 27829938,
+   "LifeExpectancy": 58.309,
+   "Continent": "Africa"
+ },
+ {
+   "Country": "Myanmar",
+   "Code": "MMR",
+   "CO2Emissions": 16701776,
+   "YearlyChange": 5.61,
+   "Percapita": 0.31,
+   "Population": 53045201,
+   "LifeExpectancy": 66.205,
+   "Continent": "Asia"
+ },
+ {
+   "Country": "Namibia",
+   "Code": "NAM",
+   "CO2Emissions": 3901830,
+   "YearlyChange": 4.42,
+   "Percapita": 1.65,
+   "Population": 2358044,
+   "LifeExpectancy": 62.625,
+   "Continent": "Africa"
+ },
+ {
+   "Country": "Nepal",
+   "Code": "NPL",
+   "CO2Emissions": 7833787,
+   "YearlyChange": 10.1,
+   "Percapita": 0.29,
+   "Population": 27263433,
+   "LifeExpectancy": 69.848,
+   "Continent": "Asia"
+ },
+ {
+   "Country": "Netherlands",
+   "Code": "NLD",
+   "CO2Emissions": 163419285,
+   "YearlyChange": 1.63,
+   "Percapita": 9.62,
+   "Population": 16981295,
+   "LifeExpectancy": 81.862,
+   "Continent": "Europe"
+ },
+ {
+   "Country": "New Caledonia",
+   "Code": "NCL",
+   "CO2Emissions": 2338717,
+   "YearlyChange": 7.22,
+   "Percapita": 8.53,
+   "Population": 274191,
+   "LifeExpectancy": 77.014,
+   "Continent": "Oceania"
+ },
+ {
+   "Country": "New Zealand",
+   "Code": "NZL",
+   "CO2Emissions": 33276202,
+   "YearlyChange": -0.14,
+   "Percapita": 7.14,
+   "Population": 4659265,
+   "LifeExpectancy": 81.859,
+   "Continent": "Oceania"
+ },
+ {
+   "Country": "Nicaragua",
+   "Code": "NIC",
+   "CO2Emissions": 5325447,
+   "YearlyChange": 1.86,
+   "Percapita": 0.84,
+   "Population": 6303974,
+   "LifeExpectancy": 73.86,
+   "Continent": "North America"
+ },
+ {
+   "Country": "Niger",
+   "Code": "NER",
+   "CO2Emissions": 2088475,
+   "YearlyChange": 0.15,
+   "Percapita": 0.1,
+   "Population": 20788798,
+   "LifeExpectancy": 61.137,
+   "Continent": "Africa"
+ },
+ {
+   "Country": "Nigeria",
+   "Code": "NGA",
+   "CO2Emissions": 82634214,
+   "YearlyChange": 0.7,
+   "Percapita": 0.44,
+   "Population": 185960241,
+   "LifeExpectancy": 53.541,
+   "Continent": "Africa"
+ },
+ {
+   "Country": "North Korea",
+   "Code": "PRK",
+   "CO2Emissions": 58708734,
+   "YearlyChange": 19.49,
+   "Percapita": 2.32,
+   "Population": 25307665,
+   "LifeExpectancy": 71.711,
+   "Continent": "Asia"
+ },
+ {
+   "Country": "North Macedonia",
+   "Code": "MKD",
+   "CO2Emissions": 8896732,
+   "YearlyChange": 1.62,
+   "Percapita": 4.28,
+   "Population": 2080743,
+   "LifeExpectancy": 75.498,
+   "Continent": "Europe"
+ },
+ {
+   "Country": "Norway",
+   "Code": "NOR",
+   "CO2Emissions": 43456012,
+   "YearlyChange": 0.85,
+   "Percapita": 8.28,
+   "Population": 5250949,
+   "LifeExpectancy": 82.029,
+   "Continent": "Europe"
+ },
+ {
+   "Country": "Oman",
+   "Code": "OMN",
+   "CO2Emissions": 87835773,
+   "YearlyChange": 2.09,
+   "Percapita": 19.61,
+   "Population": 4479219,
+   "LifeExpectancy": 77.142,
+   "Continent": "Asia"
+ },
+ {
+   "Country": "Pakistan",
+   "Code": "PAK",
+   "CO2Emissions": 178013820,
+   "YearlyChange": 9.13,
+   "Percapita": 0.87,
+   "Population": 203631353,
+   "LifeExpectancy": 66.77,
+   "Continent": "Asia"
+ },
+ {
+   "Country": "Palau",
+   "Code": "PLW",
+   "CO2Emissions": 41732,
+   "YearlyChange": 7.19,
+   "Percapita": 2.35,
+   "Population": 17725,
+   "LifeExpectancy": 73.089,
+   "Continent": "Oceania"
+ },
+ {
+   "Country": "Panama",
+   "Code": "PAN",
+   "CO2Emissions": 11599764,
+   "YearlyChange": 2.37,
+   "Percapita": 2.87,
+   "Population": 4037078,
+   "LifeExpectancy": 77.964,
+   "Continent": "North America"
+ },
+ {
+   "Country": "Papua New Guinea",
+   "Code": "PNG",
+   "CO2Emissions": 9086988,
+   "YearlyChange": 7.09,
+   "Percapita": 1.1,
+   "Population": 8271762,
+   "LifeExpectancy": 63.744,
+   "Continent": "Oceania"
+ },
+ {
+   "Country": "Paraguay",
+   "Code": "PRY",
+   "CO2Emissions": 5998469,
+   "YearlyChange": 1.97,
+   "Percapita": 0.89,
+   "Population": 6777872,
+   "LifeExpectancy": 73.836,
+   "Continent": "South America"
+ },
+ {
+   "Country": "Peru",
+   "Code": "PER",
+   "CO2Emissions": 57692879,
+   "YearlyChange": 8.16,
+   "Percapita": 1.87,
+   "Population": 30926032,
+   "LifeExpectancy": 76.044,
+   "Continent": "South America"
+ },
+ {
+   "Country": "Philippines",
+   "Code": "PHL",
+   "CO2Emissions": 126922662,
+   "YearlyChange": 12.37,
+   "Percapita": 1.22,
+   "Population": 103663816,
+   "LifeExpectancy": 70.802,
+   "Continent": "Asia"
+ },
+ {
+   "Country": "Poland",
+   "Code": "POL",
+   "CO2Emissions": 296659670,
+   "YearlyChange": 2.67,
+   "Percapita": 7.81,
+   "Population": 37989220,
+   "LifeExpectancy": 78.11,
+   "Continent": "Europe"
+ },
+ {
+   "Country": "Portugal",
+   "Code": "PRT",
+   "CO2Emissions": 50142844,
+   "YearlyChange": -2.36,
+   "Percapita": 4.86,
+   "Population": 10325538,
+   "LifeExpectancy": 81.444,
+   "Continent": "Europe"
+ },
+ {
+   "Country": "Puerto Rico",
+   "Code": "PRI",
+   "CO2Emissions": 712758,
+   "YearlyChange": 1.71,
+   "Percapita": 0.22,
+   "Population": 3283125,
+   "LifeExpectancy": 79.664,
+   "Continent": "North America"
+ },
+ {
+   "Country": "Qatar",
+   "Code": "QAT",
+   "CO2Emissions": 98990085,
+   "YearlyChange": 1.79,
+   "Percapita": 37.29,
+   "Population": 2654374,
+   "LifeExpectancy": 79.868,
+   "Continent": "Asia"
+ },
+ {
+   "Country": "Reunion",
+   "Code": "REU",
+   "CO2Emissions": 1132331,
+   "YearlyChange": 3.55,
+   "Percapita": 1.3,
+   "Population": 869743,
+   "LifeExpectancy": 79.899,
+   "Continent": "Africa"
+ },
+ {
+   "Country": "Romania",
+   "Code": "ROU",
+   "CO2Emissions": 78770824,
+   "YearlyChange": 1.69,
+   "Percapita": 3.98,
+   "Population": 19796285,
+   "LifeExpectancy": 75.644,
+   "Continent": "Europe"
+ },
+ {
+   "Country": "Russia",
+   "Code": "RUS",
+   "CO2Emissions": 1661899300,
+   "YearlyChange": -2.13,
+   "Percapita": 11.44,
+   "Population": 145275383,
+   "LifeExpectancy": 71.835,
+   "Continent": "Europe"
+ },
+ {
+   "Country": "Rwanda",
+   "Code": "RWA",
+   "CO2Emissions": 1403087,
+   "YearlyChange": 2.88,
+   "Percapita": 0.12,
+   "Population": 11668827,
+   "LifeExpectancy": 67.93,
+   "Continent": "Africa"
+ },
+ {
+   "Country": "Saint Helena",
+   "Code": "SHN",
+   "CO2Emissions": 13128,
+   "YearlyChange": 2.62,
+   "Percapita": 2.2,
+   "Population": 5956,
+   "LifeExpectancy": 80.251,
+   "Continent": "Africa"
+ },
+ {
+   "Country": "Saint Kitts & Nevis",
+   "Code": "KNA",
+   "CO2Emissions": 203036,
+   "YearlyChange": 1.51,
+   "Percapita": 3.93,
+   "Population": 51625,
+   "LifeExpectancy": 75.73,
+   "Continent": "North America"
+ },
+ {
+   "Country": "Saint Lucia",
+   "Code": "LCA",
+   "CO2Emissions": 608182,
+   "YearlyChange": 1.51,
+   "Percapita": 3.38,
+   "Population": 180024,
+   "LifeExpectancy": 75.752,
+   "Continent": "North America"
+ },
+ {
+   "Country": "Saint Pierre & Miquelon",
+   "Code": "SPM",
+   "CO2Emissions": 8842,
+   "YearlyChange": 1.51,
+   "Percapita": 1.49,
+   "Population": 5934,
+   "LifeExpectancy": 80.654,
+   "Continent": "North America"
+ },
+ {
+   "Country": "Saint Vincent and the Grenadines",
+   "Code": "VCT",
+   "CO2Emissions": 362414,
+   "YearlyChange": 1.51,
+   "Percapita": 3.31,
+   "Population": 109459,
+   "LifeExpectancy": 72.193,
+   "Continent": "North America"
+ },
+ {
+   "Country": "Samoa",
+   "Code": "WSM",
+   "CO2Emissions": 169939,
+   "YearlyChange": 7.18,
+   "Percapita": 0.87,
+   "Population": 194535,
+   "LifeExpectancy": 72.895,
+   "Continent": "Oceania"
+ },
+ {
+   "Country": "Sao Tome & Principe",
+   "Code": "STP",
+   "CO2Emissions": 56185,
+   "YearlyChange": 2.6,
+   "Percapita": 0.28,
+   "Population": 203227,
+   "LifeExpectancy": 69.67,
+   "Continent": "Africa"
+ },
+ {
+   "Country": "Saudi Arabia",
+   "Code": "SAU",
+   "CO2Emissions": 517079407,
+   "YearlyChange": 0.92,
+   "Percapita": 15.94,
+   "Population": 32443447,
+   "LifeExpectancy": 74.761,
+   "Continent": "Asia"
+ },
+ {
+   "Country": "Senegal",
+   "Code": "SEN",
+   "CO2Emissions": 8247295,
+   "YearlyChange": 3.69,
+   "Percapita": 0.55,
+   "Population": 14993519,
+   "LifeExpectancy": 67.078,
+   "Continent": "Africa"
+ },
+ {
+   "Country": "Serbia",
+   "Code": "SRB",
+   "CO2Emissions": 41168059,
+   "YearlyChange": 2.27,
+   "Percapita": 4.65,
+   "Population": 8853963,
+   "LifeExpectancy": 75.505,
+   "Continent": "Europe"
+ },
+ {
+   "Country": "Seychelles",
+   "Code": "SYC",
+   "CO2Emissions": 519693,
+   "YearlyChange": 2.62,
+   "Percapita": 5.43,
+   "Population": 95710,
+   "LifeExpectancy": 73.226,
+   "Continent": "Africa"
+ },
+ {
+   "Country": "Sierra Leone",
+   "Code": "SLE",
+   "CO2Emissions": 1272332,
+   "YearlyChange": 3.43,
+   "Percapita": 0.17,
+   "Population": 7328834,
+   "LifeExpectancy": 53.444,
+   "Continent": "Africa"
+ },
+ {
+   "Country": "Singapore",
+   "Code": "SGP",
+   "CO2Emissions": 48381759,
+   "YearlyChange": 2.56,
+   "Percapita": 8.56,
+   "Population": 5653634,
+   "LifeExpectancy": 83.083,
+   "Continent": "Asia"
+ },
+ {
+   "Country": "Slovakia",
+   "Code": "SVK",
+   "CO2Emissions": 36817242,
+   "YearlyChange": 1.74,
+   "Percapita": 6.77,
+   "Population": 5442003,
+   "LifeExpectancy": 77.034,
+   "Continent": "Europe"
+ },
+ {
+   "Country": "Slovenia",
+   "Code": "SVN",
+   "CO2Emissions": 14722601,
+   "YearlyChange": 2.35,
+   "Percapita": 7.1,
+   "Population": 2074210,
+   "LifeExpectancy": 80.852,
+   "Continent": "Europe"
+ },
+ {
+   "Country": "Solomon Islands",
+   "Code": "SLB",
+   "CO2Emissions": 341748,
+   "YearlyChange": 7.18,
+   "Percapita": 0.55,
+   "Population": 619438,
+   "LifeExpectancy": 72.424,
+   "Continent": "Oceania"
+ },
+ {
+   "Country": "Somalia",
+   "Code": "SOM",
+   "CO2Emissions": 1268442,
+   "YearlyChange": 2.57,
+   "Percapita": 0.09,
+   "Population": 14185636,
+   "LifeExpectancy": 56.324,
+   "Continent": "Africa"
+ },
+ {
+   "Country": "South Africa",
+   "Code": "ZAF",
+   "CO2Emissions": 390557850,
+   "YearlyChange": -0.49,
+   "Percapita": 6.95,
+   "Population": 56207646,
+   "LifeExpectancy": 63.153,
+   "Continent": "Africa"
+ },
+ {
+   "Country": "South Korea",
+   "Code": "KOR",
+   "CO2Emissions": 604043830,
+   "YearlyChange": 0.45,
+   "Percapita": 11.85,
+   "Population": 50983457,
+   "LifeExpectancy": 82.379,
+   "Continent": "Asia"
+ },
+ {
+   "Country": "South Sudan",
+   "Code": "SSD",
+   "CO2Emissions": 4038496,
+   "YearlyChange": 4.18,
+   "Percapita": 0.37,
+   "Population": 10832518,
+   "LifeExpectancy": 57.12,
+   "Continent": "Africa"
+ },
+ {
+   "Country": "Spain",
+   "Code": "ESP",
+   "CO2Emissions": 251892320,
+   "YearlyChange": -3.12,
+   "Percapita": 5.4,
+   "Population": 46634140,
+   "LifeExpectancy": 83.145,
+   "Continent": "Europe"
+ },
+ {
+   "Country": "Sri Lanka",
+   "Code": "LKA",
+   "CO2Emissions": 18454691,
+   "YearlyChange": 8.55,
+   "Percapita": 0.88,
+   "Population": 21021171,
+   "LifeExpectancy": 76.482,
+   "Continent": "Asia"
+ },
+ {
+   "Country": "Sudan",
+   "Code": "SDN",
+   "CO2Emissions": 13294106,
+   "YearlyChange": 4.18,
+   "Percapita": 0.33,
+   "Population": 39847439,
+   "LifeExpectancy": 64.663,
+   "Continent": "Africa"
+ },
+ {
+   "Country": "Suriname",
+   "Code": "SUR",
+   "CO2Emissions": 2152933,
+   "YearlyChange": 0.32,
+   "Percapita": 3.81,
+   "Population": 564888,
+   "LifeExpectancy": 71.358,
+   "Continent": "South America"
+ },
+ {
+   "Country": "Sweden",
+   "Code": "SWE",
+   "CO2Emissions": 44694415,
+   "YearlyChange": 4.33,
+   "Percapita": 4.54,
+   "Population": 9836007,
+   "LifeExpectancy": 82.382,
+   "Continent": "Europe"
+ },
+ {
+   "Country": "Switzerland",
+   "Code": "CHE",
+   "CO2Emissions": 39666930,
+   "YearlyChange": -2.3,
+   "Percapita": 4.73,
+   "Population": 8379917,
+   "LifeExpectancy": 83.31,
+   "Continent": "Europe"
+ },
+ {
+   "Country": "Syria",
+   "Code": "SYR",
+   "CO2Emissions": 38054696,
+   "YearlyChange": 1.78,
+   "Percapita": 2.18,
+   "Population": 17465575,
+   "LifeExpectancy": 70.315,
+   "Continent": "Asia"
+ },
+ {
+   "Country": "Taiwan",
+   "Code": "TWN",
+   "CO2Emissions": 276724868,
+   "YearlyChange": 1.91,
+   "Percapita": 11.72,
+   "Population": 23618200,
+   "LifeExpectancy": 79.927,
+   "Continent": "Asia"
+ },
+ {
+   "Country": "Tajikistan",
+   "Code": "TJK",
+   "CO2Emissions": 6049757,
+   "YearlyChange": 3.37,
+   "Percapita": 0.7,
+   "Population": 8663579,
+   "LifeExpectancy": 70.397,
+   "Continent": "Asia"
+ },
+ {
+   "Country": "Tanzania",
+   "Code": "TZA",
+   "CO2Emissions": 9731560,
+   "YearlyChange": 2.5,
+   "Percapita": 0.18,
+   "Population": 53049230,
+   "LifeExpectancy": 63.844,
+   "Continent": "Africa"
+ },
+ {
+   "Country": "Thailand",
+   "Code": "THA",
+   "CO2Emissions": 271040160,
+   "YearlyChange": 1.55,
+   "Percapita": 3.93,
+   "Population": 68971308,
+   "LifeExpectancy": 76.403,
+   "Continent": "Asia"
+ },
+ {
+   "Country": "Timor-Leste",
+   "Code": "TLS",
+   "CO2Emissions": 495687,
+   "YearlyChange": 4.63,
+   "Percapita": 0.41,
+   "Population": 1219288,
+   "LifeExpectancy": 68.735,
+   "Continent": "Asia"
+ },
+ {
+   "Country": "Togo",
+   "Code": "TGO",
+   "CO2Emissions": 2321546,
+   "YearlyChange": 5.47,
+   "Percapita": 0.31,
+   "Population": 7509951,
+   "LifeExpectancy": 60.22,
+   "Continent": "Africa"
+ },
+ {
+   "Country": "Tonga",
+   "Code": "TON",
+   "CO2Emissions": 251375,
+   "YearlyChange": 7.19,
+   "Percapita": 2.49,
+   "Population": 101133,
+   "LifeExpectancy": 70.607,
+   "Continent": "Oceania"
+ },
+ {
+   "Country": "Trinidad and Tobago",
+   "Code": "TTO",
+   "CO2Emissions": 34974263,
+   "YearlyChange": -5.92,
+   "Percapita": 25.39,
+   "Population": 1377560,
+   "LifeExpectancy": 73.1,
+   "Continent": "North America"
+ },
+ {
+   "Country": "Tunisia",
+   "Code": "TUN",
+   "CO2Emissions": 29395965,
+   "YearlyChange": 0.82,
+   "Percapita": 2.6,
+   "Population": 11303945,
+   "LifeExpectancy": 76.115,
+   "Continent": "Africa"
+ },
+ {
+   "Country": "Turkey",
+   "Code": "TUR",
+   "CO2Emissions": 368122740,
+   "YearlyChange": 5.25,
+   "Percapita": 4.61,
+   "Population": 79827871,
+   "LifeExpectancy": 76.86,
+   "Continent": "Asia"
+ },
+ {
+   "Country": "Turkmenistan",
+   "Code": "TKM",
+   "CO2Emissions": 79279216,
+   "YearlyChange": 0.63,
+   "Percapita": 14,
+   "Population": 5662368,
+   "LifeExpectancy": 67.835,
+   "Continent": "Asia"
+ },
+ {
+   "Country": "Turks and Caicos",
+   "Code": "TCA",
+   "CO2Emissions": 65451,
+   "YearlyChange": 1.52,
+   "Percapita": 1.79,
+   "Population": 36559,
+   "LifeExpectancy": 79.732,
+   "Continent": "North America"
+ },
+ {
+   "Country": "Uganda",
+   "Code": "UGA",
+   "CO2Emissions": 5009493,
+   "YearlyChange": 3.82,
+   "Percapita": 0.13,
+   "Population": 39649166,
+   "LifeExpectancy": 61.986,
+   "Continent": "Africa"
+ },
+ {
+   "Country": "Ukraine",
+   "Code": "UKR",
+   "CO2Emissions": 233220080,
+   "YearlyChange": 8.03,
+   "Percapita": 5.22,
+   "Population": 44713702,
+   "LifeExpectancy": 71.711,
+   "Continent": "Europe"
+ },
+ {
+   "Country": "United Arab Emirates",
+   "Code": "ARE",
+   "CO2Emissions": 218788684,
+   "YearlyChange": 4.43,
+   "Percapita": 23.37,
+   "Population": 9360980,
+   "LifeExpectancy": 77.47,
+   "Continent": "Asia"
+ },
+ {
+   "Country": "United Kingdom",
+   "Code": "GBR",
+   "CO2Emissions": 367860350,
+   "YearlyChange": -6.38,
+   "Percapita": 5.55,
+   "Population": 66297944,
+   "LifeExpectancy": 81.111,
+   "Continent": "Europe"
+ },
+ {
+   "Country": "United States",
+   "Code": "USA",
+   "CO2Emissions": 5011686600,
+   "YearlyChange": -2.01,
+   "Percapita": 15.52,
+   "Population": 323015995,
+   "LifeExpectancy": 78.885,
+   "Continent": "North America"
+ },
+ {
+   "Country": "Uruguay",
+   "Code": "URY",
+   "CO2Emissions": 6508013,
+   "YearlyChange": 1.91,
+   "Percapita": 1.9,
+   "Population": 3424129,
+   "LifeExpectancy": 77.498,
+   "Continent": "South America"
+ },
+ {
+   "Country": "Uzbekistan",
+   "Code": "UZB",
+   "CO2Emissions": 109347340,
+   "YearlyChange": 1.6,
+   "Percapita": 3.48,
+   "Population": 31441751,
+   "LifeExpectancy": 71.171,
+   "Continent": "Asia"
+ },
+ {
+   "Country": "Vanuatu",
+   "Code": "VUT",
+   "CO2Emissions": 137706,
+   "YearlyChange": 7.18,
+   "Percapita": 0.49,
+   "Population": 278330,
+   "LifeExpectancy": 70.021,
+   "Continent": "Oceania"
+ },
+ {
+   "Country": "Venezuela",
+   "Code": "VEN",
+   "CO2Emissions": 175884256,
+   "YearlyChange": -1.9,
+   "Percapita": 5.89,
+   "Population": 29851255,
+   "LifeExpectancy": 72.405,
+   "Continent": "South America"
+ },
+ {
+   "Country": "Vietnam",
+   "Code": "VNM",
+   "CO2Emissions": 206042140,
+   "YearlyChange": 0.09,
+   "Percapita": 2.2,
+   "Population": 93640422,
+   "LifeExpectancy": 75.172,
+   "Continent": "Asia"
+ },
+ {
+   "Country": "Western Sahara",
+   "Code": "ESH",
+   "CO2Emissions": 207592,
+   "YearlyChange": 2.61,
+   "Percapita": 0.39,
+   "Population": 538749,
+   "LifeExpectancy": 69.496,
+   "Continent": "Africa"
+ },
+ {
+   "Country": "Yemen",
+   "Code": "YEM",
+   "CO2Emissions": 25647990,
+   "YearlyChange": 1.62,
+   "Percapita": 0.94,
+   "Population": 27168208,
+   "LifeExpectancy": 66.087,
+   "Continent": "Asia"
+ },
+ {
+   "Country": "Zambia",
+   "Code": "ZMB",
+   "CO2Emissions": 4230584,
+   "YearlyChange": 3.67,
+   "Percapita": 0.26,
+   "Population": 16363458,
+   "LifeExpectancy": 62.464,
+   "Continent": "Africa"
+ },
+ {
+   "Country": "Zimbabwe",
+   "Code": "ZWE",
+   "CO2Emissions": 10062628,
+   "YearlyChange": -4.17,
+   "Percapita": 0.72,
+   "Population": 14030331,
+   "LifeExpectancy": 60.294,
+   "Continent": "Africa"
+ }
+]
