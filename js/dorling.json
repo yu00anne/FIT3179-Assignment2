@@ -1,127 +1,127 @@
 {
-    "$schema": "https://vega.github.io/schema/vega/v5.json",
-    "description": "A Dorling cartogram of Life Expectancy of Different Countries",
-    "width": 900,
-    "height": 520,
-    "autosize": "none",
-  
-    "config": {
-      "legend": {
-        "gradientDirection": "horizontal",
-        "gradientLength": 120,
-        "gradientThickness": 10
-      }
+  "$schema": "https://vega.github.io/schema/vega/v5.json",
+  "description": "A Dorling cartogram of Life Expectancy of Different Countries",
+  "width": 900,
+  "height": 520,
+  "autosize": "none",
+
+  "config": {
+    "legend": {
+      "gradientDirection": "horizontal",
+      "gradientLength": 120,
+      "gradientThickness": 10
+    }
+  },
+
+  "data": [
+    {
+      "name": "map",
+      "url": "https://raw.githubusercontent.com/yu00anne/FIT3179-Assignment2/master/js/world_topo.geo.json",
+      "format": {"type": "topojson", "feature": "world.geo"}
     },
-  
-    "data": [
-      {
-        "name": "map",
-        "url": "https://raw.githubusercontent.com/yu00anne/FIT3179-Assignment2/master/js/world_topo.geo.json",
-        "format": {"type": "topojson", "feature": "world.geo"}
-      },
-      {
-        "name": "csv",
-        "url": "https://raw.githubusercontent.com/yu00anne/FIT3179-Assignment2/master/data/CO2Emission_LifeExp.csv",
-        "transform": [
-          {
-            "type": "lookup",
-            "from": "map", "key": "properties.name",
-            "fields": ["Country"], "as": ["geo"]
-          },
-          {
-            "type": "filter",
-            "expr": "datum.geo"
-          },
-          {
-            "type": "formula", "as": "centroid",
-            "expr": "geoCentroid('projection', datum.geo)"
-          }
-        ]
-      }
-    ],
-  
-    "projections": [
-      {
-        "name": "projection",
-        "type": "equirectangular",
-        "scale": 1100,
-        "translate": [{"signal": "width / 2"}, {"signal": "height / 2"}]
-      }
-    ],
-  
-    "scales": [
-      {
-        "name": "size",
-        "domain": {"data": "csv", "field": "LifeExpectancy"},
-        "zero": false,
-        "range": [1000, 5000]
-      },
-      {
-        "name": "color",
-        "type": "linear",
-        "nice": true,
-        "domain": {"data": "csv", "field": "LifeExpectancy"},
-        "range": "ramp"
-      }
-    ],
-  
-    "legends": [
-      {
-        "title": "Life Expectancy Range",
-        "orient": "bottom-right",
-        "type": "symbol",
-        "size": "size",
-        "fill": "color",
-        "format": ".1%",
-        "clipHeight": 16
-      }
-    ],
-  
-    "marks": [
-      {
-        "name": "circles",
-        "type": "symbol",
-        "from": {"data": "csv"},
-        "encode": {
-          "enter": {
-            "size": {"scale": "size", "field": "LifeExpectancy"},
-            "fill": {"scale": "color", "field": "LifeExpectancy"},
-            "stroke": {"value": "white"},
-            "strokeWidth": {"value": 1.5},
-            "x": {"field": "centroid[0]"},
-            "y": {"field": "centroid[1]"},
-            "tooltip": {"signal": "'Life Expectancy: ' + format(datum.LifeExpectancy, '.1%')"}
-          }
+    {
+      "name": "json",
+      "url": "https://raw.githubusercontent.com/yu00anne/FIT3179-Assignment2/master/data/CO2Emission_LifeExp.json",
+      "transform": [
+        {
+          "type": "lookup",
+          "from": "map", "key": "Country",
+          "fields": ["Country"], "as": ["geo"]
         },
-        "transform": [
-          {
-            "type": "force",
-            "static": true,
-            "forces": [
-              {"force": "collide", "radius": {"expr": "1 + sqrt(datum.size) / 2"}},
-              {"force": "x", "x": "datum.centroid[0]"},
-              {"force": "y", "y": "datum.centroid[1]"}
-            ]
-          }
-        ]
+        {
+          "type": "filter",
+          "expr": "datum.geo"
+        },
+        {
+          "type": "formula", "as": "centroid",
+          "expr": "geoCentroid('projection', datum.geo)"
+        }
+      ]
+    }
+  ],
+
+  "projections": [
+    {
+      "name": "projection",
+      "type": "equirectangular",
+      "scale": 1100,
+      "translate": [{"signal": "width / 2"}, {"signal": "height / 2"}]
+    }
+  ],
+
+  "scales": [
+    {
+      "name": "size",
+      "domain": {"data": "json", "field": "LifeExpectancy"},
+      "zero": false,
+      "range": [1, 100]
+    },
+    {
+      "name": "color",
+      "type": "linear",
+      "nice": true,
+      "domain": {"data": "json", "field": "LifeExpectancy"},
+      "range": "ramp"
+    }
+  ],
+
+  "legends": [
+    {
+      "title": "Life Expectancy Range",
+      "orient": "bottom-right",
+      "type": "symbol",
+      "size": "size",
+      "fill": "color",
+      "format": ".1%",
+      "clipHeight": 16
+    }
+  ],
+
+  "marks": [
+    {
+      "name": "circles",
+      "type": "symbol",
+      "from": {"data": "json"},
+      "encode": {
+        "enter": {
+          "size": {"scale": "size", "field": "LifeExpectancy"},
+          "fill": {"scale": "color", "field": "LifeExpectancy"},
+          "stroke": {"value": "white"},
+          "strokeWidth": {"value": 1.5},
+          "x": {"field": "centroid[0]"},
+          "y": {"field": "centroid[1]"},
+          "tooltip": {"signal": "'Life Expectancy: ' + format(datum.LifeExpectancy, '.1%')"}
+        }
       },
-      {
-        "type": "text",
-        "interactive": false,
-        "from": {"data": "circles"},
-        "encode": {
-          "enter": {
-            "align": {"value": "center"},
-            "baseline": {"value": "middle"},
-            "fontSize": {"value": 13},
-            "fontWeight": {"value": "bold"},
-            "text": {"field": "datum.properties.name"}
-          },
-          "update": {
-            "x": {"field": "x"},
-            "y": {"field": "y"}
-          }
+      "transform": [
+        {
+          "type": "force",
+          "static": true,
+          "forces": [
+            {"force": "collide", "radius": {"expr": "1 + sqrt(datum.size) / 2"}},
+            {"force": "x", "x": "datum.centroid[0]"},
+            {"force": "y", "y": "datum.centroid[1]"}
+          ]
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "interactive": false,
+      "from": {"data": "circles"},
+      "encode": {
+        "enter": {
+          "align": {"value": "center"},
+          "baseline": {"value": "middle"},
+          "fontSize": {"value": 13},
+          "fontWeight": {"value": "bold"},
+          "text": {"field": "datum.properties.name"}
+        },
+        "update": {
+          "x": {"field": "x"},
+          "y": {"field": "y"}
         }
       }
-    ]
-  }
+    }
+  ]
+}
