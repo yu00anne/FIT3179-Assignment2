@@ -1,0 +1,67 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "description": "A bar chart with negative values. We can hide the axis domain line, and instead use a conditional grid color to draw a zero baseline.",
+    "data": {
+      "url": "https://raw.githubusercontent.com/yu00anne/FIT3179-Assignment2/master/data/CO2Emission_LifeExp.csv"
+    },
+    "params": [
+        {
+          "name": "Continent_selection",
+          "bind": {
+            "input": "select",
+            "options": [
+              null,
+              "North America",
+              "South America",
+              "Europe",
+              "Africa",
+              "Asia",
+              "Oceania"
+            ],
+            "labels": [
+              "Show All",
+              "North America",
+              "South America",
+              "Europe",
+              "Africa",
+              "Asia",
+              "Oceania"
+            ],
+            "name": "Continent Selection: "
+          }
+        }
+      ],
+      "transform": [
+        {
+        "filter": "Continent_selection == null || datum.Continent == Continent_selection"
+        }
+      ],
+      "selection": {
+        "continent_highlight": {
+          "type": "multi",
+          "fields": ["Continent"],
+          "bind": "legend"
+        }
+      },
+    "mark": "bar",
+    "encoding": {
+      "x": {
+        "field": "Country", "type": "nominal",
+        "axis": {
+          "domain": false,
+          "ticks": false,
+          "labelAngle": 270,
+          "labelPadding": 4
+        }
+      },
+      "y": {
+        "field": "YearlyChange", "type": "quantitative",
+        "axis": {
+          "gridColor": {
+            "condition": {"test": "datum.value === 0", "value": "black"},
+            "value": "#ddd"
+          }
+        }
+      }
+    }
+  }
