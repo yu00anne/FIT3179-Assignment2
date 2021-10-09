@@ -1,0 +1,16 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "description": "A simple donut chart with embedded data.",
+    "data": {
+      "url": "https://raw.githubusercontent.com/yu00anne/FIT3179-Assignment2/master/data/CO2Emission_LifeExp.csv"
+    },
+    "mark": {"type": "arc", "innerRadius": 50},
+    "encoding": {
+      "theta": {"field": "YearlyChange", "type": "quantitative"},
+      "color": {"field": "Continent", "type": "nominal"},
+      "tooltip": [
+              {"field": "Country", "type": "nominal"},
+              {"field": "YearlyChange", "type": "quantitative", "title": "CO2 Emissions Yearly Change per tons"}
+            ]
+    }
+  }
