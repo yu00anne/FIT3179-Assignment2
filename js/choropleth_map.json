@@ -76,7 +76,8 @@
       "field": "Percapita",
       "type": "quantitative",
       "scale": {
-        "type": "log",
+        "type": "threshold",
+        "domain": [0,5,10,15,20,25,30,35],
         "scheme": "goldred"
   }
     },
