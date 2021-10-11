@@ -1,18 +1,72 @@
 {
-    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "width": 500,
-    "height": 400,
-    "description": "A simple donut chart with embedded data.",
-    "data": {
-      "url": "https://raw.githubusercontent.com/yu00anne/FIT3179-Assignment2/master/data/CO2Emission_LifeExp.csv"
-    },
-    "mark": {"type": "arc", "innerRadius": 50},
-    "encoding": {
-      "theta": {"field": "YearlyChange", "type": "quantitative"},
-      "color": {"field": "Continent", "type": "nominal"},
-      "tooltip": [
-              {"field": "Country", "type": "nominal"},
-              {"field": "YearlyChange", "type": "quantitative", "title": "CO2 Emissions Yearly Change per tons"}
-            ]
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": 500,
+  "height": 400,
+  "description": "A simple donut chart with embedded data.",
+  "data": {
+    "url": "https://raw.githubusercontent.com/yu00anne/FIT3179-Assignment2/master/data/CO2Emission_LifeExp.csv"
+  },
+  "params":[
+    {
+      "name": "Continent_selection",
+      "bind": {
+        "input": "select",
+        "options": [
+          null,
+          "North America",
+          "South America",
+          "Europe",
+          "Africa",
+          "Asia",
+          "Oceania"
+        ],
+        "labels": [
+          "Show All",
+          "North America",
+          "South America",
+          "Europe",
+          "Africa",
+          "Asia",
+          "Oceania"
+        ],
+        "name": "Continent Selection: "
+      }
     }
+  ],
+  "transform": [
+  {
+    "filter": "Continent_selection == null || datum.Continent == Continent_selection"
   }
+],
+  "mark": {"type": "arc", "innerRadius": 50},
+  "encoding": {
+    "theta": {"field": "YearlyChange", "type": "quantitative"},
+    "color": {
+      "field": "Continent",
+      "type": "nominal",
+      "scale": {
+        "domain": [
+          "North America",
+          "South America",
+          "Europe",
+          "Africa",
+          "Asia",
+          "Oceania"
+          ],
+        "range": [
+          "#72B7B2",
+          "#EECA3B",
+          "#E45756",
+          "#4C78A8",
+          "#F58518",
+          "#54A24B"
+          ]
+        }
+      },
+    "tooltip": [
+            {"field": "Country", "type": "nominal"},
+            {"field": "Continent", "type": "nominal"},
+            {"field": "YearlyChange", "type": "quantitative", "title": "CO2 Emissions Yearly Change per tons"}
+          ]
+  }
+}
