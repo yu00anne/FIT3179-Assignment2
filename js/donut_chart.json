@@ -2,7 +2,7 @@
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "width": 500,
   "height": 400,
-  "description": "A simple donut chart with embedded data.",
+  "title": "Yearly Change of CO2 Emissions of Different Countries",
   "data": {
     "url": "https://raw.githubusercontent.com/yu00anne/FIT3179-Assignment2/master/data/CO2Emission_LifeExp.csv"
   },

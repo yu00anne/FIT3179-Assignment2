@@ -2,7 +2,7 @@
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "width": 650,
   "height": 400,
-  "title": "CO2 Emission per Capita in Different Countries",
+  "title": "CO2 Emission per Capita of Different Countries",
   "data": {
     "url": "https://raw.githubusercontent.com/yu00anne/FIT3179-Assignment2/master/js/world_topo.geo.json",
     "format": {"type": "topojson", "feature": "world.geo"}
