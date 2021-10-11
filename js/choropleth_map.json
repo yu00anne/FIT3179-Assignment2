@@ -1,6 +1,6 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "width": 750,
+  "width": 650,
   "height": 400,
   "title": "CO2 Emission per Capita in Different Countries",
   "data": {
