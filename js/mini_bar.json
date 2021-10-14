@@ -1,0 +1,71 @@
+{
+"$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+"description": "Bar chart with text labels. Set domain to make the frame cover the labels.",
+"data": {
+    "url": "https://raw.githubusercontent.com/yu00anne/FIT3179-Assignment2/master/data/CO2Emission_LifeExp.csv"
+},
+"encoding": {
+    "y": {"field": "Continent", "type": "nominal"},
+    "x": {"field": "CO2Emissions", "type": "quantitative", "aggregate": "sum"},
+    "color": {
+        "field": "Continent",
+        "type": "nominal",
+        "scale": {
+            "domain": [
+                "North America",
+                "South America",
+                "Europe",
+                "Africa",
+                "Asia",
+                "Oceania"
+            ],
+            "range": [
+                "#e41a1c",
+                "#984ea3",
+                "#ff7f00",
+                "#a6cee3",
+                "#377eb8",
+                "#a65628"
+            ]
+        }
+    },
+    "tooltip": [
+        {"field": "Continent", "type": "nominal"},
+        {
+            "field": "CO2Emissions",
+            "aggregate": "sum",
+            "type": "quantitative", "format": ","
+        }
+    ]
+},
+"layer": [
+    {
+        "encoding": {
+            "color": {
+                "condition": {
+                    "param": "click",
+                    "field": "Continent",
+                    "scale": {
+                    "domain": ["North America", "South America", "Europe", "Africa", "Asia", "Oceania"],
+                    "range": ["#e41a1c", "#984ea3", "#ff7f00", "#a6cee3", "#377eb8", "#a65628"]}
+                },
+                "value": "lightgray"
+            },
+            "x": {"field": "CO2Emissions", "type": "quantitative", "aggregate": "sum"},
+            "y": {"field": "Continent", "type": "nominal"}
+        },
+        "mark": "bar",
+        "params": [{
+            "name": "click",
+            "select": {"type": "point", "encodings": ["color"]}
+        }]
+    }, 
+    {
+    "mark": {
+    "type": "text",
+    "align": "left",
+    "baseline": "middle",
+    "dx": 3
+    }
+}]
+}
