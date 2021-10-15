@@ -1,0 +1,20 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "description": "A vertical box plot showing median, min, and max body mass of penguins.",
+    "data": {
+      "url": "https://raw.githubusercontent.com/yu00anne/FIT3179-Assignment2/master/data/CO2Emission_LifeExp.csv"
+    },
+    "mark": {
+      "type": "boxplot",
+      "extent": "min-max"
+    },
+    "encoding": {
+      "y": {"field": "Continent", "type": "nominal"},
+      "color": {"field": "Continent", "type": "nominal", "legend": null},
+      "x": {
+        "field": "LifeExpectancy",
+        "type": "quantitative",
+        "scale": {"zero": false}
+      }
+    }
+  }
