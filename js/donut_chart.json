@@ -21,20 +21,20 @@
       "type": "nominal",
       "scale": {
         "domain": [
-          "North America",
-          "South America",
-          "Europe",
           "Africa",
           "Asia",
-          "Oceania"
+          "Europe",
+          "North America",
+          "Oceania",
+          "South America"
         ],
         "range": [
-          "#72B7B2",
-          "#EECA3B",
-          "#E45756",
           "#4C78A8",
           "#F58518",
-          "#54A24B"
+          "#E45756",
+          "#72B7B2",
+          "#54A24B",
+          "#EECA3B"
         ]
       }
     },

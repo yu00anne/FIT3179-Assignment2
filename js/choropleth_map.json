@@ -1,6 +1,6 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "width": 650,
+  "width": 620,
   "height": 400,
   "title": "CO2 Emission per Capita of Different Countries",
   "data": {
@@ -74,6 +74,7 @@
   "encoding": {
     "color": {
       "field": "Percapita",
+      "title": "Percapita (tons)",
       "type": "quantitative",
       "scale": {
         "type": "threshold",

@@ -54,14 +54,14 @@
       "field": "Population",
       "type": "quantitative",
       "title": "Population",
-      "axis": {"tickCount": 20},
+      "axis": {"tickCount": 20, "grid": false},
       "scale": {"type": "log", "domain": [2000, 2000000000]}
     },
     "y": {
       "field": "CO2Emissions",
       "type": "quantitative",
-      "title": "CO2 Emissions",
-      "axis": {"tickCount": 10},
+      "title": "CO2 Emissions (tons)",
+      "axis": {"tickCount": 10, "grid": false},
       "scale": {"type": "log", "domain": [1000, 11000000000]}
     }
   },
@@ -90,33 +90,33 @@
           "field": "Continent",
           "type": "nominal",
           "scale": {
-          "domain": [
-            "Africa",
-            "Asia",
-            "Europe",
-            "North America",
-            "Oceania",
-            "South America"
-          ],
-          "range": [
-            "#e41a1c",
-            "#984ea3",
-            "#ff7f00",
-            "#a6cee3",
-            "#377eb8",
-            "#a65628"
-          ]
+            "domain": [
+              "Africa",
+              "Asia",
+              "Europe",
+              "North America",
+              "Oceania",
+              "South America"
+            ],
+            "range": [
+              "#4C78A8",
+              "#F58518",
+              "#E45756",
+              "#72B7B2",
+              "#54A24B",
+              "#EECA3B"
+            ]
         }
         },
         "opacity": {
-          "condition": {"selection": "continent_highlight", "value": 0.6},
-          "value": 0.2
+          "condition": {"selection": "continent_highlight", "value": 0.8},
+          "value": 0.05
         },
         "tooltip": [
           {"field": "Country", "type": "nominal"},
           {"field": "Population", "type": "quantitative", "format": ","},
           {
-            "field": "CO2Emissions",
+            "field": "CO2Emissions", "title": "CO2 Emissions (tons)",
             "type": "quantitative", "format": ","
           }
         ]
@@ -145,7 +145,7 @@
           {"field": "Country", "type": "nominal"},
           {"field": "Population", "type": "quantitative", "format": ","},
           {
-            "field": "CO2Emissions",
+            "field": "CO2Emissions", "title": "CO2 Emissions (tons)",
             "type": "quantitative", "format": ","
           }
         ]
