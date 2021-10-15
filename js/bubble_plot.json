@@ -1,7 +1,7 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "width": 500,
-  "height": 380,
+  "height": 250,
   "title": "CO2 Emissions VS Population of Different Countries",
   "data": {
     "url": "https://raw.githubusercontent.com/yu00anne/FIT3179-Assignment2/master/data/CO2Emission_LifeExp.csv"
