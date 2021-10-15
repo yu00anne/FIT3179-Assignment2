@@ -64,7 +64,7 @@
         </div>
 
         <div class="w3-col m4 w3-padding-small">
-            <h1 class="w3-padding-top-16 w3-center">Choropleth Map</h1>
+            <!-- <h1 class="w3-padding-top-16 w3-center">Choropleth Map</h1> -->
             <p class="w3-padding-top-64" style="text-align: justify; text-justify: inter-word;">
                 The choropleth map on the left shows the 
                 <span style="color: #F9A655; font-weight: bold;">
@@ -103,10 +103,21 @@
                 </script>
             </div>
             
+            <div id="boxplot">
+                <script type="text/javascript">
+            
+                    var map2 = "js/boxplot.json";
+                    vegaEmbed('#boxplot', map2).then(function(result) {
+                        // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+                    }).catch(console.error);
+
+                </script>
+            </div>
+            
         </div>
 
         <div class="w3-col m4 w3-padding-small">
-            <h1 class="w3-center">Bubble Plot</h1><br>
+            <!-- <h1 class="w3-center">Bubble Plot</h1><br> -->
             <p class="w3-padding-top-64" style="text-align: justify; text-justify: inter-word;">
                 On the left shows the relationship of 
                 <span style="color: #F9A655; font-weight: bold;">
@@ -140,7 +151,7 @@
         </div>
 
         <div class="w3-col m4 w3-padding-small">
-            <h1 class="w3-center">Donut Chart</h1><br>
+            <!-- <h1 class="w3-center">Donut Chart</h1><br> -->
             <p class="w3-padding-top-64" style="text-align: justify; text-justify: inter-word;">
                 Donut chart on the left shows the 
                 <span style="color: #F9A655; font-weight: bold;">

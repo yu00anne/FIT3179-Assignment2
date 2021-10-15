@@ -1,7 +1,7 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "width": 500,
-  "height": 400,
+  "height": 380,
   "title": "CO2 Emissions VS Population of Different Countries",
   "data": {
     "url": "https://raw.githubusercontent.com/yu00anne/FIT3179-Assignment2/master/data/CO2Emission_LifeExp.csv"
@@ -90,23 +90,23 @@
           "field": "Continent",
           "type": "nominal",
           "scale": {
-            "domain": [
-              "North America",
-              "South America",
-              "Europe",
-              "Africa",
-              "Asia",
-              "Oceania"
-            ],
-            "range": [
-              "#e41a1c",
-              "#984ea3",
-              "#ff7f00",
-              "#a6cee3",
-              "#377eb8",
-              "#a65628"
-            ]
-          }
+          "domain": [
+            "Africa",
+            "Asia",
+            "Europe",
+            "North America",
+            "Oceania",
+            "South America"
+          ],
+          "range": [
+            "#e41a1c",
+            "#984ea3",
+            "#ff7f00",
+            "#a6cee3",
+            "#377eb8",
+            "#a65628"
+          ]
+        }
         },
         "opacity": {
           "condition": {"selection": "continent_highlight", "value": 0.6},
